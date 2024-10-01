@@ -1,0 +1,23 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <id>com.github.obsidian.intellij_obsidian</id>
+    <name>intellij_obsidian</name>
+    <vendor email="t54zheng@uwaterloo.ca">Timothy Zheng</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <description><![CDATA[
+    Obsidian Plugin (Java Code Obfuscation) for IntelliJ
+    </br>
+    View the Obsidian repo here: https://github.com/obsidian-java/obsidian
+    ]]></description>
+
+    <actions>
+        <action id="ObsidianObfuscation" class="com.github.obsidian.intellij_obsidian.ObsidianObfuscationAction"
+                text="Obfuscate Text with Obsidian"
+                description="Replaces selected text with obfuscated version (lambda-java).">
+
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+        </action>
+    </actions>
+</idea-plugin>

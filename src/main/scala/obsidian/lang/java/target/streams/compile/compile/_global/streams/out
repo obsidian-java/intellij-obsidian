@@ -1,0 +1,49 @@
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- [E029] Pattern Match Exhaustivity Warning: /Users/timothyz/code/obsidian-intellij-v2/src/main/scala/obsidian/lang/java/CPS.scala:327:43 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m327 |[0m        [33mcase[0m List(SSABlock(lbl, stmts)) => stmts [33mmatch[0m {[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                                           ^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m                       [33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m                       It would fail on pattern case: List(_, _*), Nil[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- [E029] Pattern Match Exhaustivity Warning: /Users/timothyz/code/obsidian-intellij-v2/src/main/scala/obsidian/lang/java/CPS.scala:399:46 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m399 |[0m        [33mcase[0m SSABlock(lbl, stmts)::blksppp => stmts [33mmatch[0m {[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                                              ^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m                       [33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m                       It would fail on pattern case: List(_, _*), Nil[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- [E029] Pattern Match Exhaustivity Warning: /Users/timothyz/code/obsidian-intellij-v2/src/main/scala/obsidian/lang/java/CPS.scala:326:144 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m326 |[0m    [33mdef[0m [36mcpsblk[0m([36mblks[0m:[35mList[0m[[35mSSABlock[0m], [36mphiK[0m:[35mList[0m[[35mPhi[0m], [36mphiR[0m:[35mList[0m[[35mPhi[0m])(using [36mm[0m:[35mMonadError[0m[[35mCPSState[0m, [35mErrorM[0m]):[35mSState[0m[[35mState[0m, ([35mList[0m[[35mVarDecl[0m], [35mExp[0m)] = blks [33mmatch[0m {[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                                                                                                                                                ^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m                                    [33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m                                    It would fail on pattern case: Nil[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- [E029] Pattern Match Exhaustivity Warning: /Users/timothyz/code/obsidian-intellij-v2/src/main/scala/obsidian/lang/java/CPS.scala:591:8 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m591 |[0m        oplabels [33mmatch[0m {[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m        ^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m        [33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m        It would fail on pattern case: List(_, _*)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- [E029] Pattern Match Exhaustivity Warning: /Users/timothyz/code/obsidian-intellij-v2/src/main/scala/obsidian/lang/java/Desugar.scala:438:11 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m438 |[0m      [36mc[0m => c [33mmatch[0m {[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m           ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m[33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mIt would fail on pattern case: Syntax.Catch(Syntax.FormalParam(_: List, Syntax.PrimType_(_), _, _), Syntax.Block(_))[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- [E029] Pattern Match Exhaustivity Warning: /Users/timothyz/code/obsidian-intellij-v2/src/main/scala/obsidian/lang/java/Desugar.scala:445:11 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m445 |[0m      [36mc[0m => c [33mmatch[0m {[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m           ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m[33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mIt would fail on pattern case: Syntax.Catch(Syntax.FormalParam(_: List, _, _, Syntax.VarDeclArray(_)), Syntax.Block(_))[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[33mwarn[0m] [0m[0m6 warnings found[0m

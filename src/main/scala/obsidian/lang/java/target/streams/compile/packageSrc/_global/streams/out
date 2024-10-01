@@ -1,0 +1,23 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/timothyz/code/obsidian-intellij-v2/src/main/scala/obsidian/lang/java/target/scala-3.3.1/obsidian_3-0.1.0-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Desugar.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/timothyz/code/obsidian-intellij-v2/src/main/scala/obsidian/lang/java/Desugar.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CPSFixture.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/timothyz/code/obsidian-intellij-v2/src/main/scala/obsidian/lang/java/CPSFixture.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ASTUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/timothyz/code/obsidian-intellij-v2/src/main/scala/obsidian/lang/java/ASTUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Obfuscate.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/timothyz/code/obsidian-intellij-v2/src/main/scala/obsidian/lang/java/Obfuscate.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Common.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/timothyz/code/obsidian-intellij-v2/src/main/scala/obsidian/lang/java/Common.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Obsidian.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/timothyz/code/obsidian-intellij-v2/src/main/scala/obsidian/lang/java/Obsidian.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MinSSA.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/timothyz/code/obsidian-intellij-v2/src/main/scala/obsidian/lang/java/MinSSA.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Flatten.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/timothyz/code/obsidian-intellij-v2/src/main/scala/obsidian/lang/java/Flatten.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ASTPath.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/timothyz/code/obsidian-intellij-v2/src/main/scala/obsidian/lang/java/ASTPath.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CPS.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/timothyz/code/obsidian-intellij-v2/src/main/scala/obsidian/lang/java/CPS.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
