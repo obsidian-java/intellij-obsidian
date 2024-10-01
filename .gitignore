@@ -1,0 +1,10 @@
+# IDE
+.idea
+.intellijPlatform
+.vscode
+
+# Build
+.gradle
+.qodana
+.metals
+build
