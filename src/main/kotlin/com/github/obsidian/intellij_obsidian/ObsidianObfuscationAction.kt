@@ -36,8 +36,8 @@ class ObsidianObfuscationAction : AnAction() {
             ) { document.replaceString(start, end, obs) }
 
         } catch (e: IllegalArgumentException) {
-            println("Error obfuscating text: ${selectedText}")
-            // TODO: Add error popup at bottom right
+            // println("Error obfuscating text: ${selectedText}")
+            ObsidianErrorNotification.notifyError(project, "Error obfuscating Java Code: ${selectedText}")
         }
 
         // De-select the text range that was just replaced

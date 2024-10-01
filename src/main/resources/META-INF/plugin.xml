@@ -20,4 +20,10 @@
             <add-to-group group-id="EditorPopupMenu" anchor="first"/>
         </action>
     </actions>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <notificationGroup id="Balloon Notification"
+                           displayType="BALLOON"
+                           key="notification.group.name"/>
+    </extensions>
 </idea-plugin>
