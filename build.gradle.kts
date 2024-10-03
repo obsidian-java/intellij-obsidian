@@ -23,7 +23,12 @@ kotlin {
 repositories {
     mavenCentral()
     maven {
-        url = uri("https://raw.githubusercontent.com/obsidian-java/binrepo/master/")
+        url = uri("https://raw.githubusercontent.com/obsidian-java/binrepo/master/") // for obsidian && scalangj
+    }
+
+    // IntelliJ Platform Gradle Plugin Repositories Extension - read more: https://plugins.jetbrains.com/docs/intellij/tools-intellij-platform-gradle-plugin-repositories-extension.html
+    intellijPlatform {
+        defaultRepositories()
     }
 
     ivy {
@@ -36,23 +41,14 @@ repositories {
         }
         metadataSources { artifact() }
     }
-
-
-    // IntelliJ Platform Gradle Plugin Repositories Extension - read more: https://plugins.jetbrains.com/docs/intellij/tools-intellij-platform-gradle-plugin-repositories-extension.html
-    intellijPlatform {
-        defaultRepositories()
-    }
 }
 
 // Dependencies are managed with Gradle version catalog - read more: https://docs.gradle.org/current/userguide/platforms.html#sub:version-catalog
 dependencies {
     implementation("obsidian.lang.java:scalangj_3:0.1.8") // from github
-
-    implementation("obsidian:obsidian_3:0.1.0") // ensure you have run sbt compile && sbt publishLocal
-    implementation("org.typelevel:cats-core_3:2.9.0") // required to run scala!
+    implementation("obsidian.lang.java:obsidian_3:0.0.1") // from github
+//    implementation("obsidian:obsidian_3:0.1.0") // ensure you have run sbt compile && sbt publishLocal
     testImplementation(libs.junit)
-
-    
 
     // IntelliJ Platform Gradle Plugin Dependencies Extension - read more: https://plugins.jetbrains.com/docs/intellij/tools-intellij-platform-gradle-plugin-dependencies-extension.html
     intellijPlatform {
