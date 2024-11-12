@@ -9,8 +9,10 @@ import com.intellij.openapi.editor.Caret
 import com.intellij.openapi.editor.Document
 import com.intellij.openapi.editor.Editor
 import com.intellij.openapi.project.Project
+import org.slf4j.LoggerFactory
 
 class ObsidianObfuscationAction : AnAction() {
+    private val logger = LoggerFactory.getLogger(ObsidianObfuscationAction::class.java)
     override fun actionPerformed(event: AnActionEvent) {
         // Get all the required data from data keys
         val editor: Editor = event.getRequiredData(CommonDataKeys.EDITOR)
@@ -36,7 +38,9 @@ class ObsidianObfuscationAction : AnAction() {
             ) { document.replaceString(start, end, obs) }
 
         } catch (e: IllegalArgumentException) {
-            // println("Error obfuscating text: ${selectedText}")
+            logger.error("--- Error encountered obfuscating code, see below ---")
+            logger.error("Error obfuscating code: $e")
+            logger.error("code snippet:\n$selectedText")
             ObsidianErrorNotification.notifyError(project, "Error obfuscating Java Code: ${selectedText}")
         }
 

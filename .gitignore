@@ -8,3 +8,6 @@
 .qodana
 .metals
 build
+
+# Misc
+.DS_Store

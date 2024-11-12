@@ -2,10 +2,10 @@ package com.github.obsidian.intellij_obsidian
 
 import obsidian.lang.java.scalangj.Parser.parseNonEmptyCompilationUnit
 import obsidian.lang.java.scalangj.Syntax.CompilationUnit
+import obsidian.lang.java.obsidian.Obsidian
 import scala.util.Either
 import scala.util.Left
 import scala.util.Right
-import obsidian.lang.java.Obsidian
 
 /*
 * Service class interacting with Obsidian
